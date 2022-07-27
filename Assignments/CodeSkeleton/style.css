@@ -9,6 +9,11 @@ body{
   height: 100vh;
 }
 
+.nav li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
 h1{
   text-align: center;
 }
