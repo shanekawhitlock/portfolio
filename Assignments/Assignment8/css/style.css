@@ -10,8 +10,14 @@ header,footer{
   /* height: 100px; */
   /* text-align: center; */
   padding-left: 5px;
+  float: left;
+  width: 98.5%;
 }
 
+nav{
+  float: left;
+  width: 100%;
+}
 nav ul li{
   display: inline;
   list-style-type: none;
@@ -29,15 +35,20 @@ main{
   background-color: #049993;
   padding: 12px;
   margin-bottom: 6px;
+  float: left;
+  width: 98%;
 }
 
 section{
   background-color: #C4C5C6;
   padding: 12px;
+  float: right;
+  width: 48%;
 }
 
 #section1{
   margin-bottom: 6px;
+  float: left;
 }
 /* header h1{
   margin-top: auto;
