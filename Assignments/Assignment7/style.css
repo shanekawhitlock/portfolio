@@ -1,0 +1,52 @@
+div{
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+/* header, footer */
+#header{
+  margin-top: auto;
+  margin-bottom:auto;
+  background-color: #000;color: #049993;
+  padding: 6px;
+  /* height: 100px; */
+  /* text-align: center; */
+  padding-left: 5px
+}
+
+/* formerly nav */
+#nav-list ul li{
+  display: inline;
+  list-style-type: none;
+  margin-left: 2px;
+}
+
+a{
+  color: #000;
+}
+/* formerly main */
+#main{
+  background-color: #049993;
+  padding-left: 5px;
+  padding: 12px;
+}
+/* formerly 'section' */
+/* HOW TO USE CLASS SELECTOR */
+.section{
+  background-color: #c4c5c6;
+  padding-left: 5px;
+  padding: 4px;
+  margin-bottom: 6px;
+}
+
+/* HOW TO USE ID SELECTOR */
+
+#section1{
+  margin-bottom: 6px;
+}
+#footer{
+  background-color: #000; color: #049993;
+  padding: 5px;
+  padding-left: 5px;
+  margin-top: 6px;
+}
