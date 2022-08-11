@@ -1,0 +1,30 @@
+body{
+  /* background-color: lavender; */
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  background-color: #9BD5E3;
+  /* background-color: #9BD5E3; */
+  /* background-color: 89CFF0; */
+  padding: 15px;
+  text-align: center;
+}
+
+caption{
+  text-align: left;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-bottom: 15px;
+}
+
+.header-col{
+  background-color: D3D3D3;
+}
+
+.table-col{
+  background-color: #98D5E3;
+}
