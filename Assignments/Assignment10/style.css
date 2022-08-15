@@ -2,16 +2,18 @@ body{
   /* background-color: lavender; */
 }
 
-table{
+/* table{
   border-collapse: collapse;
-}
+  border-spacing: 15px;
+  background-color: red;
+} */
 
 th, td{
-  background-color: #9BD5E3;
   /* background-color: #9BD5E3; */
-  /* background-color: 89CFF0; */
+  /* background-color: #89CFF0; */
   padding: 15px;
   text-align: center;
+  /* border: 5px solid lime; */
 }
 
 caption{
@@ -22,7 +24,7 @@ caption{
 }
 
 .header-col{
-  background-color: D3D3D3;
+  background-color: #D3D3D3;
 }
 
 .table-col{
