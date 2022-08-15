@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <ul>
+      <li><a href="../assignments.html">School Assignments</a></li>
+    </ul>
     <title>Assignment 9</title>
     <style>
       /* Don't touch the CSS below */
@@ -50,24 +53,54 @@
       }
 
       /* Your CSS to complete the assignment goes here */
+
+      .clearBox{
+        /* border: 2px solid green; */
+        clear: both;
+        height: 50px;
+      }
+
+      .letterBox{
+        float: left;
+      }
+
+      .numberBox{
+        float: right;
+      }
+
+      .clearBox:{
+        clear: left;
+      }
+
+      .task5P{
+        float: left;
+        width: 33%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
       #task1Block{
         float: left;
         /* clear: left; */
+        margin-right: 20px;
       }
 
       #task2Block{
         float: right;
         /* clear: right; */
+        margin-left: 20px;
       }
 
       #task3Block1{
         float: right;
         /* clear: right; */
+        margin-left: 20px;
       }
 
       #task3Block2{
         float: left;
         /* clear: left; */
+        margin-right: 20px;
       }
 
       #task4BlockA,#task4BlockB,#task4BlockC,#task4BlockD,#task4BlockE{
@@ -79,15 +112,12 @@
         float: right;
       }
 
-      #task5P{
-        flex-direction: column;
-      }
 
-      }
     </style>
   </head>
   <body>
     <h1>Assignment 9 - Floats and Clears</h1>
+
     <div class="column">
       <h2>Task 1 - Text and Floats (Left)</h2>
       <h3>Make the red block below float left.</h3>
@@ -108,7 +138,7 @@
         Ab sint sint e expetendis id malis ut incurreret.
       </p>
       <h2>Task 2 - Text and Floats (Right)</h2>
-      <h3>Make the blue block below float left.</h3>
+      <h3>Make the blue block below float right.</h3>
       <div id="task2Block" class="blueBlock">FLOAT RIGHT</div>
       <p>
         Fore admodum incididunt qui cernantur si arbitror, ubi
@@ -170,6 +200,7 @@
       <div id="task4Block3" class="box numberBox">3</div>
       <div id="task4Block4" class="box numberBox">4</div>
       <div id="task4Block5" class="box numberBox">5</div>
+      <div id="task4BlockBlank" class="clearBox"></div>
     </div>
     <div class="column">
       <h2>Task 5 - Floats and Layouts</h2>
@@ -221,8 +252,5 @@
         consequat, quo dolore qui sint.
       </p>
     </div>
-    <ul>
-      <li><a href="../assignments.html">School Assignments</a></li>
-    </ul>
   </body>
 </html>
