@@ -1,0 +1,89 @@
+body{
+  background-color: #a8a8a8;
+}
+
+/* ********************************************
+**************Color Utiity Classes*************
+******************************************** */
+.bg-red{background-color: red;}
+.bg-cyan{background-color: cyan;}
+.bg-pink{background-color: pink;}
+.bg-lime{background-color: limegreen;}
+.bg-blue{background-color: blue;}
+.bg-yellow{background-color: yellow;}
+.bg-black{background-color: black;}
+.bg-magenta{background-color: magenta;}
+.bg-orange{background-color: orange;}
+.bg-purple{background-color: purple;}
+.bg-gold{background-color: gold;}
+/* ******************************************** */
+/* ***********End of Color Utility Classes******** */
+/* *********************************************** */
+
+
+.page{
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 1;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "Header"
+    "Callout"
+    "Carousel"
+    "EventCallout"
+    "Blog"
+    "Footer";
+}
+
+header{
+  grid-area: Header;
+  height: 150px;
+}
+
+.carousel{
+  height: 300px;
+  grid-area: Carousel;
+}
+
+.callout{
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  grid-area: Callout;
+}
+
+.callout-item{
+  flex: 1;
+  /* height: 200px; */
+}
+
+.eventcallout{
+  grid-area: EventCallout;
+}
+
+.eventcallout-item{
+  height: 200px;
+}
+
+.blog-container{
+  grid-area: Blog-Container;
+}
+
+.blog-item{
+  padding: 5px;
+}
+
+.footer{
+  grid-area: Footer;
+  height: 100px;
+}
+
+
+
+@media only screen and (min-width: 481px){
+  .callout{
+    flex-direction: row;
+    height: 200px;
+  }
+}
