@@ -1,3 +1,32 @@
+body{
+  /* background-color: #cyan; */
+  background-image: url(Assets/background.jpg);
+  background-position: center;
+}
+
+#yourname{
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
 #firstname:focus{
-  border: 2px solid: pink;
+  border: 2px solid: blue;
+  margin-left: 10px;
+}
+
+#middlename:focus{
+  border: 2px solid: blue;
+  margin-left: 10px;
+}
+
+#lastname:focus{
+  border: 2px solid: blue;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+#program{
+  display:block;
+  padding: 20px;
+  margin-left: 10px;
 }

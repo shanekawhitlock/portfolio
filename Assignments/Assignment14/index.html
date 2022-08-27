@@ -8,15 +8,27 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h3 id="yourname">What is your name?</h3>
 
     <form class="my-form" action="" method="post">
       <label for="firstname">First Name:</label>
       <input type="text" name="firstname" id="firstname" placeholder="John"><br><br>
 
+      <label for="middlename">Middle Name:</label>
+      <input type="text" name="middlename" id="middlename" placeholder="Allen"><br><br>
+
       <label for="lastname">Last Name:</label>
       <input type="text" name="lastname" id="lastname" placeholder="Doe">
 
-      <input type="Submit" name="" value="Submit">
+      <h3 id="program">What program are you in?</h3>
+
+      <form class="program" action="" method="post">
+        <input type="radio" name="Recording and Show Production" value="Recording and Show Production"><br></br>
+        <input type="radio" name="Digital Filmmaking and Video Production" value="Digital Filmmaking and Video Production"><br></br>
+        <input type="radio" name="Graphic Design and Web Development" value="Graphic Design and Web Development"><br></br>
+
+      </form>
+      <input type="Submit" name="" value="Click to Submit!">
     </form>
 
 
