@@ -17,7 +17,7 @@ body{
 .bg-purple{background-color: purple;}
 .bg-gold{background-color: gold;}
 /* ******************************************** */
-/* ***********End of Color Utility Classes******** */
+/* ***********Mobile Styles******** */
 /* *********************************************** */
 
 
@@ -37,8 +37,26 @@ body{
 }
 
 header{
+  display: flex;
+  flex-direction: column;
   grid-area: Header;
   height: 150px;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  justify-content: space-between;
+}
+
+nav a{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#merchandise-link{
+  margin-right: auto;
 }
 
 .carousel{
@@ -79,9 +97,24 @@ header{
   height: 100px;
 }
 
-
+/* ******************************************** */
+/* ***********Desktop Styles******** */
+/* *********************************************** */
 
 @media only screen and (min-width: 481px){
+
+  .page-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url("../Assets/overall-bg.jpeg");
+    background-size: contain;
+  }
+
+  .page{
+    width: 1000px;
+  }
+
   .callout{
     flex-direction: row;
     height: 200px;
