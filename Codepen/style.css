@@ -1,0 +1,19 @@
+table{
+  width: 20%;
+  margin: auto;
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+#col_1{
+  background-color: red;
+}
+
+#col_2{
+  background-color: grey;
+}
+
+th, td{
+  padding: 20px;
+  border: 1px solid #000;
+}
