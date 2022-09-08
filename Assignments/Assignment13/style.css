@@ -26,17 +26,14 @@ body{
 .sidenav{
   background-color: #DDFEDC;
   grid-area: sidenav;
+  padding: 36px;
 }
+
 
 .content{
   /* background-color: cyan; */
   background-color: #fff;
   grid-area: content;
-}
-
-.footer{
-  background-color: #008001;
-  grid-area: footer;
 }
 
 .nested{
@@ -64,4 +61,10 @@ body{
 
 .p-1, .p-2{
   /* margin: 5px; */
+}
+
+#footer{
+  background-color: #008001;
+  grid-area: footer;
+  position: relative;
 }
