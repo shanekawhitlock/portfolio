@@ -45,10 +45,37 @@ aside {
 
 /* your CSS for tablet goes in here */
 @media screen and (min-width: 480px) and (max-width: 799px) {
+  aside{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
+  aside .fakeLink, .fakeLink2{
+    display: flex;
+    width: 50%;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* your CSS for desktop goes in here */
 @media screen and (min-width: 800px) {
+  aside{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
+  aside .fakeLink{
+    width: 100%;
+  }
+
+  aside .fakeLink2{
+    display: flex;
+    width: 33.33%;
+    /* flex: 1; */
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
 }
