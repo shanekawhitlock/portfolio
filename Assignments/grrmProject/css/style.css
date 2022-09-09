@@ -1,6 +1,5 @@
-body{
-  background-color: #a8a8a8;
-}
+
+
 
 /* ********************************************
 **************Color Utiity Classes*************
@@ -85,7 +84,7 @@ nav a{
 }
 
 .blog-container{
-  grid-area: Blog-Container;
+  grid-area: Blog;
 }
 
 .blog-item{
