@@ -1,0 +1,45 @@
+body{
+  height: 1500px;
+  position: relative
+}
+
+nav{
+  background-color: yellow;
+}
+
+#navbar1{
+  background-color: lightgreen;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar2{
+  background-color: pink;
+  position: relative;
+  top: 150px;
+}
+
+#navbar3{
+  background-color: skyblue;
+  position: absolute;
+  bottom: 150px;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  display: inline;
+  padding: 10px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  background-color: cyan;
+}
