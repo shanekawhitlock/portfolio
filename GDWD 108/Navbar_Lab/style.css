@@ -1,0 +1,14 @@
+nav{
+  background-color: pink;
+}
+
+li{
+  display: inline;
+  padding: 10px;
+  margin: 15px;
+}
+
+#nav-list li a:hover{
+  color: #fff;
+  background-color: cyan;
+}
