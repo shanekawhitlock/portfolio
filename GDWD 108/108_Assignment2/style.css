@@ -25,8 +25,25 @@ nav{
   bottom: 150px;
 }
 
+ul{
+  padding: 0px;
+}
 
 li{
   display: inline;
   padding: 10px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  background-color: cyan;
+}
+
+a:active{
+  text-decoration: line-through;
 }
