@@ -9,24 +9,25 @@ nav{
 
 #navbar1{
   background-color: lightgreen;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
 }
 
-#navbar2{
+/* #navbar2{
   background-color: skyblue;
   position: relative;
   top: 150px;
-}
+} */
 
-#navbar3{
+/* #navbar3{
   background-color: pink;
   position: absolute;
   bottom: 150px;
-}
+} */
 
 ul{
   padding: 0px;
+  display: flex;
 }
 
 li{
@@ -46,4 +47,53 @@ a:hover{
 
 a:active{
   text-decoration: line-through;
+}
+
+
+/* Dropdown button */
+.dropbtn{
+  font-size: 16px;
+  border: none;
+  color: black;
+  /* padding: 16px; */
+  background-color: lightgreen;
+  font-family: inherit;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown{
+  position: relative;
+  display: inline;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{
+  background-color: #cyan;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+/* Change the background color of the dropdown button
+when the dropdown content is shown */
+.dropdown:hover .dropbtn{
+  background-color: #3e8e41;
+}
+
+@media only screen and (max-width: 768px) {
+  ul{
+    flex-direction: column;
+  }
 }
