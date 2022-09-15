@@ -62,21 +62,21 @@ a:active{
   top: 75%;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.5s, visibility 0.5s, top 0.5s;
+  transition: opacity 0.5s, visibility 0.5s; top 0.5s;
 }
 
 .dropdownContainer:hover .dropdownMenu,
 .dropdownMenu:hover{
   visibility: visible;
   opacity: 1;
-  top: 100;
+  top: 100%;
 }
 
-.fancy:hover{
+.fancy:hover {
   background-color: pink;
 }
 
-.fancy:hover{
+.fancy:hover a{
   color: white;
 }
 
