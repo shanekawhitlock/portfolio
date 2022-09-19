@@ -30,7 +30,7 @@ li{
   top: 75%;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.5s, visibility 0.5s; top 0.5s;
+  transition: opacity 0.5s, visibility 0.5s, top 0.5s;
 }
 
 .dropdownContainer:hover .dropdownMenu,
