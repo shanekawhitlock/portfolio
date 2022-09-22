@@ -62,7 +62,7 @@ footer a:hover {
     "heroArea heroArea heroArea"
     ". threeCardsArea ."
     ". galleryArea ."
-    "carouselArea carouselArea carouselArea"
+    ". carouselArea ."
     ". twoCardsArea ."
     "footerArea footerArea footerArea";
 }
@@ -273,6 +273,20 @@ nav h2 {
   width: 100%;
   margin-bottom: 24px;
 }
+
+/****************************************************************************
+  Carousel styles
+****************************************************************************/
+#carousel{
+  text-align: center;
+}
+
+#carsousel img{
+  height: 500px;
+  width: auto;
+  margin: 0 auto;
+}
+
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
@@ -289,6 +303,11 @@ nav h2 {
       "footerArea";
   }
 
+  #carsousel img{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+  }
   nav,
   #threeCards,
   #twoCards{
