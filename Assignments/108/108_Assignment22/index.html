@@ -3,6 +3,9 @@
   <head>
     <title>Assignment 22 - Bouncing Ball</title>
     <style>
+      body{
+        margin: 0;
+      }
       #room{
         border: 5px solid black;
         position: relative;
@@ -13,7 +16,8 @@
 
       #ball{
         align-items: center;
-        background-color: green;
+        /* background-color: rgb(34, 178, 224); */
+        background-image: radial-gradient(cyan,green,green);
         border-radius: 50%;
         display: flex;
         font-weight: bold;
@@ -29,8 +33,8 @@
     </div>
 
     <script type="text/javascript">
-      let roomWidth = 600;
-      let roomHeight = 500;
+      let roomWidth = window.innerWidth;
+      let roomHeight = window.innerHeight;
       let ballWidth = 100;
       let ballHeight = 100;
 
