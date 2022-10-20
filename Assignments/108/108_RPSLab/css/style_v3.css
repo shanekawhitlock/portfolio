@@ -2,6 +2,7 @@
 body {
   text-align: center;
   font-family: Verdana, sans-serif;
+  background-color: lavender;
 }
 
 /*****************************************************************************
@@ -13,7 +14,7 @@ body {
 */
 #popupContainer {
   position: absolute;
-  top: 0;
+  top: 20;
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -38,7 +39,7 @@ body {
 #popup {
   background: white;
   border-radius: 36px;
-  padding: 36px 24px 72px;
+  padding: 60px 24px 72px;
   position: relative;
   z-index: 15;
 }
